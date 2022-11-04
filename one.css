@@ -1,0 +1,183 @@
+.container {
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    /* margin-right: 5%; */
+}
+
+.header {
+    margin-top: 0;
+    background-color: white;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+.logo a:hover {
+    opacity: 80%;
+}
+
+nav {
+    margin-left: 45%;
+}
+
+
+nav ul {
+    padding-top: 5%;
+    padding-left: 0%;
+    display: flex;
+    position: relative;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 40px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none; /* ngilangin garis bawah di link*/
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(159, 241, 18, 0.2);
+}
+
+
+.top_wr {
+    /* background-image: url(image/leaves.jpg); */
+    /* background-size: auto; */
+    /* opacity: 90%; */
+    padding-left: 5%;
+    display: flex;
+    width: 100%;
+    height: 535px;
+    max-height: 600px;
+}
+
+.img-container img {
+    margin-top: 2%;
+    width: 95%;
+    height: 85%;
+    display: block;
+}
+
+
+.content {
+    display: inline-block; /*to avoid collapsing margin*/
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-top: 3%;
+    background-color: white;
+    opacity: 100%;
+    width: 40%;
+    height: 535px;
+    max-height: 580px;
+}
+
+.content h1 {
+    font-size: 68px;
+    margin-bottom: 0%;
+}
+
+.content p {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 100%;
+}
+
+.start a {
+    margin-top: 10px;
+    padding:8px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(159, 241, 18, 0.75);
+    float: left;
+}
+
+.start a:hover {
+    background-color: rgb(159, 241, 18, 0.5);
+}
+
+.recent {
+    margin-top: 3%;
+    padding-left: 5%;
+}
+
+.box {
+    border: solid whitesmoke;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 1% 1% 1% 1%;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.box-image {
+    width: 25%;
+    height: 15%;
+}
+
+.box-image img { /*klo cuma box-img aja, gak akan bisa diubah wifth dan height nya*/
+    width: 100%;
+    
+}
+
+.box-content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box h1 {
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.box:hover {
+    background-color: rgba(220, 220, 220, 0.712);
+}
+
+.box a:hover {
+    color: rgb(40, 40, 199);
+}
+
+.footer {
+    margin-left: 0%;
+    margin-top: 3%;
+    padding-left: 0%;
+    padding-top: 0.05%;
+    padding-bottom: 0.05%;
+    height: 5%;
+    background-color: #333333;
+}
+
+.footer h1 {
+    color:white;
+}
+
